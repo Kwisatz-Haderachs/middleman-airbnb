@@ -1,0 +1,35 @@
+#flats {
+  align-items: left;
+  text-align: left;
+  height: 600px;
+  img {
+    width: 150px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: rgba(40, 200, 50,0.8);
+  }
+  p {
+    font-size: 17px;
+    font-weight: bold;
+    color: $teal;
+  }
+  a {
+    color: rgba(0,0,0,0.5);
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    font-size: 15px;
+  }
+  .container {
+    height: 600px;
+    background-size: cover;
+    justify-content: space-around;
+  }
+}
+
+
