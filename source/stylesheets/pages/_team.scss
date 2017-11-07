@@ -1,7 +1,7 @@
 #team {
-  height: 100vh;
+  height: 80vh;
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: space-around;
   text-align: center;
   background-image: url("https://kitt.lewagon.com/placeholder/cities/shanghai"), linear-gradient(0deg, white 50%, #F4F4F4 50%);
@@ -22,7 +22,7 @@
     color: rgba(0,0,0,0.6);
   }
   a {
-    color: rgba(0,0,0,0.5);
+    color: $slate;
     font-weight: bold;
     letter-spacing: -0.5px;
     font-size: 15px;
